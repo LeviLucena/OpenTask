@@ -2,7 +2,7 @@
 
 Open Task é uma ferramenta de código aberto que permite gerenciar tarefas, equipes, fazer upload de arquivos e imagens, criar fóruns de discussão dentro de cada tarefa e realizar outras operações.
 
-Escrito em PHP 7.2 e usando o banco de dados MariaDB.
+Escrito em **PHP 7.2** e usando o banco de dados **MySQL/MariaDB**.
 
 O software foi criado com o objetivo de substituir algumas alternativas pagas existentes no mercado e também trazer algo moderno e atualizado para a comunidade. Embora existam várias ferramentas semelhantes, muitas delas apresentam problemas de instalação, interfaces desatualizadas, falta de documentação e outros problemas.
 
