@@ -19,11 +19,16 @@ function calculateDatePercentage($date1, $date2){
   $date2 = new Datetime($date2);
   $currentDate = new Datetime(getCurrentDate());
 
-    $totalTime = $date1->diff($date2)->format('%a');
-    $completeTime = $date1->diff($currentDate)->format('%a');
+  $totalTime = $date1->diff($date2)->format('%a');
+  $completeTime = $date1->diff($currentDate)->format('%a');
 
-    $t = round(($totalTime - $completeTime) / $totalTime, 2) * 100;
-    return (100 - $t < 100 ? 100 - $t : 100);
+  // Verifica se $totalTime é maior que zero antes de fazer a divisão
+  if ($totalTime > 0) {
+      $t = round(($totalTime - $completeTime) / $totalTime, 2) * 100;
+      return (100 - $t < 100 ? 100 - $t : 100);
+  } else {
+      return 0; // Ou algum valor padrão
+  }
 }
 
 //Show debug element
