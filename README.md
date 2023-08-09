@@ -35,3 +35,5 @@ Com o banco de dados e tabelas instalados, você precisa de um usuário e senha 
 **Password:** admin123
 
 A configuração do banco de dados está concluída.
+
+## Autor: [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/levilucena/)](https://www.linkedin.com/in/levilucena/)
