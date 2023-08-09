@@ -24,7 +24,7 @@ Os únicos arquivos que precisam ser modificados são os arquivos root .htaccess
 
 **Important:** No arquivo `SQL.txt`, existem instruções apontando para o banco de dados `opentask`. Se o nome do seu banco de dados for diferente, substitua todas as ocorrências de `opentask` pelo nome do seu banco de dados (por exemplo, `opentask` => `mysite_opentask`)
 
-With the database and tables installed, you need a user and password to access the system with administrator level permissions. Run the following SQL:
+Com o banco de dados e tabelas instalados, você precisa de um usuário e senha para acessar o sistema com permissões de nível de administrador. Execute o seguinte SQL:
 
 
     INSERT INTO `user` (`id`, `us_name`, `us_email`, `us_login`, `us_password`, `us_permission`, `us_status`, `us_register`, `us_last_login`)
