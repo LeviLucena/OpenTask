@@ -25,7 +25,7 @@ With the database and tables installed, you need a user and password to access t
     VALUES (4, 'Admin sys', 'admin@admin.com', 'admin.sys', '$2y$10$M.w36VNczE3Zbv29CE21TOmRKRCgCUtNnk86rVmdZTOM8eTdJcLM6', 1, 1, '2020-02-12 21:57:27', '0000-00-00 00:00:00');
 
 
-Username: admin.sys
-Password: admin123
+**Username:** admin.sys
+**Password:** admin123
 
 A configuração do banco de dados está concluída.
