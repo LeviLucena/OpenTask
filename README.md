@@ -10,6 +10,12 @@ A instalação requer apenas a configuração inicial e, depois disso, nenhuma c
 
 Os únicos arquivos que precisam ser modificados são os arquivos root .htaccess e App/Config/config.php. Você também precisará instalar o banco de dados MySQL/MariaDB e executar a inserção SQL para criar um usuário com permissões de administrador.
 
+## Instalação
+
+1. use https://github.com/LeviLucena/OpenTask.git para clonar o repositório em htdocs no xammp.
+
+2. após a configuração do banco de dados, use localhost/OpenTask para acessar o sistema. 
+   
 ## Configuração do banco de dados
 
 1. Crie um banco de dados para sua aplicação, vamos usar o nome `opentask` como exemplo.
