@@ -1,6 +1,6 @@
 # OpenTask
 
-Open Task é uma ferramenta de código aberto desenvolvida por **Levi Lucena** que permite gerenciar tarefas, equipes, fazer upload de arquivos e imagens, criar fóruns de discussão dentro de cada tarefa e realizar outras operações.
+Open Task é uma ferramenta de código aberto que permite gerenciar tarefas, equipes, fazer upload de arquivos e imagens, criar fóruns de discussão dentro de cada tarefa e realizar outras operações.
 
 Escrito em PHP 7.2 e usando o banco de dados MariaDB.
 
