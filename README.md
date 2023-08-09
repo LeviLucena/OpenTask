@@ -1,22 +1,22 @@
 # OpenTask
 
-Open Task is an open-source tool developed by Levi Lucena that allows you to manage tasks, teams, upload files and images, create discussion forums within each task, and perform other operations.
+Open Task é uma ferramenta de código aberto desenvolvida por **Levi Lucena** que permite gerenciar tarefas, equipes, fazer upload de arquivos e imagens, criar fóruns de discussão dentro de cada tarefa e realizar outras operações.
 
-Written in PHP 7.2 and using the MariaDB database.
+Escrito em PHP 7.2 e usando o banco de dados MariaDB.
 
-The software was created with the aim of replacing some existing paid alternatives in the market and also bringing something modern and up-to-date to the community. While there are various similar tools, many of them have installation issues, outdated interfaces, lack of documentation, and other problems.
+O software foi criado com o objetivo de substituir algumas alternativas pagas existentes no mercado e também trazer algo moderno e atualizado para a comunidade. Embora existam várias ferramentas semelhantes, muitas delas apresentam problemas de instalação, interfaces desatualizadas, falta de documentação e outros problemas.
 
-The installation requires only initial setup, and after that, no additional configuration or adjustments are needed.
+A instalação requer apenas a configuração inicial e, depois disso, nenhuma configuração ou ajuste adicional é necessário.
 
-The only files that need to be modified are the root .htaccess and App/Config/config.php files. You'll also need to install the MySQL/MariaDB database and run the SQL insert to create a user with administrator level permissions.
+Os únicos arquivos que precisam ser modificados são os arquivos root .htaccess e App/Config/config.php. Você também precisará instalar o banco de dados MySQL/MariaDB e executar a inserção SQL para criar um usuário com permissões de administrador.
 
-## Database Setup
+## Configuração do banco de dados
 
-1. Create a database for your application, let's use the name `opentask` as an example.
+1. Crie um banco de dados para sua aplicação, vamos usar o nome `opentask` como exemplo.
 
-2. After creating the `opentask` database, copy the contents of the file `Docs/Database/SQL.txt` and execute it in your SGBD, making sure to select the `opentask` database.
+2. Após criar o banco de dados `opentask`, copie o conteúdo do arquivo `Docs/Database/SQL.txt` e execute-o em seu SGBD, certificando-se de selecionar o banco de dados `opentask`.
 
-**Important:** In the `SQL.txt` file, there are instructions pointing to the `opentask` database. If your database name is different, replace all occurrences of `opentask` with your database name (e.g., `opentask` => `mysite_opentask`).
+**Important:** No arquivo `SQL.txt`, existem instruções apontando para o banco de dados `opentask`. Se o nome do seu banco de dados for diferente, substitua todas as ocorrências de `opentask` pelo nome do seu banco de dados (por exemplo, `opentask` => `mysite_opentask`)
 
 With the database and tables installed, you need a user and password to access the system with administrator level permissions. Run the following SQL:
 
@@ -28,4 +28,4 @@ With the database and tables installed, you need a user and password to access t
 Username: admin.sys
 Password: admin123
 
-If everything has gone well so far, your database setup is complete.
+A configuração do banco de dados está concluída.
